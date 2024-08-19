@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.navigation .class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+.navigation .icon {
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 20px;
+}
+.container .note {
+    font-size: 25px;
+    width: 70%;
+}
+.container .note p {
+    margin: 5px;
+    font-size: 20px;
+}
+.container img {
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+}
+.template {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.template .mine {
+    padding: 40px 20px;
+}
+.template .icons {
+    padding: 40px 20px;
+}
